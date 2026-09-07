@@ -20,7 +20,7 @@ set -euo pipefail
 
 # ========================== 全局常量 ==========================
 readonly SCRIPT_VERSION="3.0.0"
-readonly DEFAULT_GITHUB_REPO="1743986520/incudal"
+readonly DEFAULT_GITHUB_REPO="56idc/incudal"
 readonly DEFAULT_UPDATE_REF="deeb7d65b1d2a1df461373d48090d77b2b2e4741"
 readonly GITHUB_REPO="${INCUDAL_GITHUB_REPO:-${INCUDAL_UPDATE_SOURCE:-$DEFAULT_GITHUB_REPO}}"
 readonly INSTALL_DIR="${INCUDAL_INSTALL_DIR:-/opt/incudal}"
