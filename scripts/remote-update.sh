@@ -13,7 +13,7 @@
 # ============================================================================
 set -euo pipefail
 
-readonly DEFAULT_GITHUB_REPO="1743986520/incudal"
+readonly DEFAULT_GITHUB_REPO="56idc/incudal"
 readonly DEFAULT_SOURCE_URL="https://github.com/${DEFAULT_GITHUB_REPO}"
 readonly DEFAULT_UPDATE_REF="deeb7d65b1d2a1df461373d48090d77b2b2e4741"
 INSTALL_DIR="${INCUDAL_INSTALL_DIR:-/opt/incudal}"
